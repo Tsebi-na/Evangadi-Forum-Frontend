@@ -1,0 +1,122 @@
+/* Moves the image 3 pixels upward from its normal position */
+.logo-footer .navbar-brand img {
+    width: auto;
+    position: relative;
+    top: -3px;
+  }
+  
+  /* Styles for the span inside .logo-footer */
+  .logo-footer a span {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  /* Styles for the social icons */
+  .list-social {
+    position: relative;
+    text-align: left;
+    margin-top: 25px;
+  }
+  
+  .list-social li {
+    display: inline-block;
+    margin-right: 20px; /* Creates a margin between each icon */
+  }
+  
+  .list-social li:last-child {
+    margin-right: 0; /* Removes margin from the last icon  */
+  }
+  
+  .list-social a {
+    color: #fff;
+    display: inline-block;
+    width: 38px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    font-size: 18px;
+    height: 38px;
+  }
+  
+  .list-social a:hover,
+  .list-social a:focus {
+    background-color: #fff;
+    color: #84b4fe;
+  }
+  
+  /* Styles for the footer top section */
+  .footer-top {
+    padding: 60px 0 40px 0;
+    background-color: #3b455a;
+  }
+  
+  .footer-bottom {
+    background-color: #3b455a;
+    padding-bottom: 5px;
+  }
+  
+  /* Removes default list styles */
+  li {
+    list-style: none;
+  }
+  
+  /* Adjustments for links with class "a" and "b" */
+  .a {
+    margin-left: -29px;
+    text-decoration: none;
+  }
+  
+  .b {
+    margin-left: -32px;
+    text-decoration: none;
+  }
+  
+  .b:hover {
+    text-decoration: none;
+  }
+  
+  .a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styles for the span inside .footer-inner */
+  .footer-inner span {
+    line-height: 45px;
+    font-size: 13px;
+  }
+  
+  /* Styles for headings in the footer top section */
+  .footer-top h5 {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .footer-top .list-menu a {
+    line-height: 28px;
+    color: rgba(213, 213, 213, 0.6);
+  }
+  
+  .footer-top .list-menu a:hover,
+  .footer-top .list-menu a:focus {
+    color: #fff;
+  }
+  
+  /* Styles for contact information in the footer */
+  .list-contact li {
+    color: #adafc7;
+    line-height: 32px;
+  }
+  
+  .contact-list li {
+    margin-bottom: 12px;
+    color: rgba(213, 213, 213, 0.6);
+    font-size: 16px;
+  }
+  
+  /* Styles for the footer wrapper */
+  .footer-warpper {
+    position: relative;
+    width: 100%;
+    bottom: 0 !important;
+  }

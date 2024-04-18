@@ -1,0 +1,103 @@
+.homebackground {
+    background-image: url("../../assets/image/10001.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 85px !important;
+    height: fit-content;
+  }
+  
+  .about {
+    color: #fe8402 !important;
+  }
+  
+  .eva {
+    color: #4b456f;
+  }
+  
+  .button-home {
+    background-color: #fe8402;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+  }
+  
+  .home-link {
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .pass {
+    color: #fe8402;
+  }
+  
+  .info {
+    margin-left: 40px;
+  
+  }
+  
+ 
+  @media screen and (min-width: 1200px) {
+    /* Styles for large screens */
+    .info {
+      flex: 1; /* Allow the info section to grow and take up the remaining space */
+      margin-right: 20px; /* Add some space between the sections */
+    }
+  
+    .my-section {
+      flex: 1; /* Allow the my-section section to grow and take up the remaining space */
+      margin-left: 20px; /* Add some space between the sections */
+ 
+      padding: 2%;
+      height: 500px;
+      overflow: hidden;
+      border-radius: 2%;
+      background-color: #fdfdfd !important;
+      border-radius: 10px;
+      box-shadow: 1px 0px 8px 0px rgba(230, 214, 214, 0.95);
+    }
+  
+    .custom-auth-title {
+      margin-top: 10%;
+    }
+  
+    .lnk-toggler {
+      color: #da7000;
+      text-decoration: none;
+    }
+  
+    .lnk-toggler:hover {
+      text-decoration: underline;
+    }
+  
+    .custom-login-input:focus {
+      border: 0px !important;
+      box-shadow: none !important;
+      border-bottom: 3.5px solid #fe8402 !important;
+    }
+  
+    .custom-login-btn {
+      border: none !important;
+      width: 100%;
+      margin: 0;
+      background-color: #fe8402 !important; /* Change the background color to #fe8402 */
+      color: white; /* Change the text color to white */
+    }
+  
+    .custom-login-btn:hover {
+      background: #fe8402 !important;
+    }
+  
+    .custom-password-toggle {
+      font-size: 1rem;
+      margin-left: -10%;
+      margin-right: 0;
+    }
+  }
+  @media screen and (max-width:760) {
+   .last{
+       display: block !important;
+   }
+ }

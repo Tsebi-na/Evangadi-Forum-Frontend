@@ -1,0 +1,50 @@
+.login {
+    padding: 1rem; /* Adjust padding as needed */
+    margin-right: 3%;
+    height: 600px; /* Adjust height as needed */
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fdfdfd;
+    box-shadow: 1px 0px 8px 0px rgba(230, 214, 214, 0.95);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .auth-title {
+    margin-top: 10%;
+  }
+  
+  .lnk-toggler {
+    color: #da7000;
+    text-decoration: none;
+  }
+  
+  .lnk-toggler:hover {
+    text-decoration: underline;
+  }
+  
+  .login-input:focus {
+    border: 0;
+    box-shadow: none;
+    border-bottom: 3.5px solid #fe8402;
+  }
+  
+  .login-btn {
+    border: none;
+    width: 100%;
+  }
+  
+  .login-btn:hover {
+    background: #fe8402;
+  }
+  
+  .login-input-password {
+    display: flex;
+    align-items: center; /* Align icon and input vertically */
+  }
+  
+  .icon-pass {
+    font-size: 1rem;
+    margin-left: -16px; /* Adjust as needed */
+  }
