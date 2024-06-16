@@ -71,8 +71,6 @@ function Login({toggle}) {
     </span>
   </div>
 </div>
-
-
         <div className="text-end">
           <Link className="lnk-toggler" to="/register">
             Forgot password
@@ -81,7 +79,7 @@ function Login({toggle}) {
 
         <br />
         <div className="form-group">
-          <button className="custom-login-btn btn btn-lg btn-primary btn-block" type="submit">
+          <button className="custom-login-btn btn btn-lg btn-primary btn-block col-11" type="submit">
             Login
           </button>
         </div>
