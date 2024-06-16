@@ -40,7 +40,7 @@ function Register({toggle}) {
         password: passValue,
       });
       alert("registered successfully. please login");
-      navigate("/Login");
+      toggle();
     } catch (error) {
       alert("something went wrong");
       console.log(error.message);
@@ -112,13 +112,7 @@ function Register({toggle}) {
         </div>
         <br />
         <br />
-        {/* <button
-          className="login-btn btn btn-lg btn-primary btn-block"
-          type="submit"
-        >
-          Agree and Join
-        </button> */}
-        <p>    
+        <p className=''>    
   I agree to the
   <Link className="lnk-toggler" to={"https://www.evangadi.com/legal/privacy/"}>
     privacy policy
@@ -128,7 +122,7 @@ function Register({toggle}) {
     terms of service.
   </Link>
 </p>
-      <button onClick={toggle}
+      <button 
           className="login-btn btn btn-lg btn-primary btn-block col-11"
           type="submit"> 
           Agree and Join

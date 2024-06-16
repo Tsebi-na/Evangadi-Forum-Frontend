@@ -76,7 +76,6 @@ function Login({toggle}) {
             Forgot password
           </Link>
         </div>
-
         <br />
         <div className="form-group">
           <button className="custom-login-btn btn btn-lg btn-primary btn-block col-11" type="submit">
